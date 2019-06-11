@@ -2,20 +2,20 @@
 <template name="articleList">
     <view class="article-list border-bottom-1px">
       <view class="img-box">
-        <image lazy-load='true' mode='widthFix' src="/static/imgs/1560216029033.jpg" alt="" />
+        <image lazy-load='true' mode='widthFix' src="{{img}}" alt="" />
       </view>
       <view class="m-body">
         <view class="m-title">
-        [视频]实战讲解：企业级移动电商开发
+       {{describel}}
         </view>
         <view class="m-author">
-          技术胖
+          {{author}}
         </view>
-        <view class="m-light">22小结.88人已购买</view>
+        <view class="m-light">{{sections}}小结.{{ConsumerNum}}人已购买</view>
       </view>
       <view class="m-operation">
         <view class="m-price">
-          ¥19.9
+          ¥{{price}}
         </view>
       </view>
     </view>

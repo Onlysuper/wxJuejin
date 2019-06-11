@@ -10,10 +10,6 @@
       </block>        
   </scroll-view>
   <!-- 页面内容 -->
-  <view style="height: 100rpx"></view>
-
-  <!-- {{currentTab}} -->
-  <template is="articleList"/>
-
-
+  <view class="place" style="height: 100rpx"></view>
+  <template wx:for="{{articeList}}" data="{{...item}}" is="articleList"/>
 </view>

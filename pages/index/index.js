@@ -41,10 +41,79 @@ Page({
         navScrollLeft: 0,
 
         //内容
-        tabContents:[
-            'https://images.unsplash.com/photo-1551334787-21e6bd3ab135?w=640',
-            'https://images.unsplash.com/photo-1551214012-84f95e060dee?w=640',
-            'https://images.unsplash.com/photo-1551446591-142875a901a1?w=640'
+        articeList:[
+            {
+                img:'/static/imgs/1560216029033.jpg',
+                title:'',
+                describel:' [视频]实战讲解：企业级移动电商开发',
+                author:'一直老萌',
+                sections:'22',//小结
+                price:120,
+                ConsumerNum:10//购买人数
+            },
+            {
+                img:'http://pic9.nipic.com/20100923/2531170_140325352643_2.jpg',
+                title:'',
+                describel:' [视频]实战讲解：企业级移动电商开发',
+                author:'一直老萌',
+                sections:'22',//小结
+                price:120,
+                ConsumerNum:10//购买人数
+            },
+            {
+                img:'/static/imgs/1560216029033.jpg',
+                title:'',
+                describel:' [视频]实战讲解：企业级移动电商开发',
+                author:'一直老萌',
+                sections:'22',//小结
+                price:120,
+                ConsumerNum:10//购买人数
+            },
+            {
+                img:'/static/imgs/1560216029033.jpg',
+                title:'',
+                describel:' [视频]实战讲解：企业级移动电商开发',
+                author:'一直老萌',
+                sections:'22',//小结
+                price:120,
+                ConsumerNum:10//购买人数
+            },
+            {
+                img:'/static/imgs/1560216029033.jpg',
+                title:'',
+                describel:' [视频]实战讲解：企业级移动电商开发',
+                author:'一直老萌',
+                sections:'22',//小结
+                price:120,
+                ConsumerNum:10//购买人数
+            },
+            {
+                img:'/static/imgs/1560216029033.jpg',
+                title:'',
+                describel:' [视频]实战讲解：企业级移动电商开发',
+                author:'一直老萌',
+                sections:'22',//小结
+                price:120,
+                ConsumerNum:10//购买人数
+            },
+            {
+                img:'/static/imgs/1560216029033.jpg',
+                title:'',
+                describel:' [视频]实战讲解：企业级移动电商开发',
+                author:'一直老萌',
+                sections:'22',//小结
+                price:120,
+                ConsumerNum:10//购买人数
+            },
+            {
+                img:'/static/imgs/1560216029033.jpg',
+                title:'',
+                describel:' [视频]实战讲解：企业级移动电商开发',
+                author:'一直老萌',
+                sections:'22',//小结
+                price:120,
+                ConsumerNum:10//购买人数
+            }
         ]
     },
     //事件处理函数

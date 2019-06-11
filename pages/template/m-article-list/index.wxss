@@ -15,6 +15,7 @@
 .article-list .img-box image{
   width: 128rpx;
   box-shadow: 2rpx 3rpx 4rpx rgba(209,214,200,1);
+  max-height: 250rpx;
 }
 .article-list .m-body{
   flex:1 1 50%;

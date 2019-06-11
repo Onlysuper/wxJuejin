@@ -3,6 +3,23 @@
     "pages/index/index",
     "pages/logs/logs"
   ],
+  "tabBar": {
+    "color":"#656565",
+    "selectedColor":"#3586f6",
+    "backgroundColor":"#fff",
+    "borderStyle":"white",
+    "list": [{
+      "iconPath":"/static/imgs/tabBar/1.jpeg",
+      "selectedIconPath":"/static/imgs/tabBar/1selected.jpeg",
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    }, {
+      "iconPath":"/static/imgs/tabBar/2.jpeg",
+      "selectedIconPath":"/static/imgs/tabBar/2selected.jpeg",
+      "pagePath": "pages/logs/logs",
+      "text": "日志"
+    }]
+  },
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
