@@ -1,0 +1,34 @@
+.border-bottom-1px{
+    position: relative;
+}
+.border-bottom-1px:after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 1px;
+    /* background:linear-gradient(to left,#efefef,#b6b6b6,#efefef); */
+    position: absolute;
+    background-image: -webkit-linear-gradient(bottom,#e9eaea 50%,transparent 50%);
+    background-image: linear-gradient(bottom,#e9eaea 50%,transparent 50%);
+    background-size:  100% 1px;
+    background-repeat: no-repeat;
+    bottom:0;
+    z-index: 100;
+    left: 0;
+}
+.m-title{
+    font-size: 32rpx;
+    color: #3d3f43;
+}
+.m-author{
+    font-size: 26rpx;
+    color: #3d3f43;
+}
+.m-price{
+    font-size: 26rpx;
+    color: #4f90f6;
+}
+.m-light{
+    color: #b5b8ba;
+    font-size: 24rpx;
+}
