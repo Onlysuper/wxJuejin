@@ -34,6 +34,10 @@
     color:#343434;
     font-size: 32rpx;
 }
+.m-split-20{
+    background:#f4f5f5;
+    height: 20rpx;
+}
 .m-describel{
     font-size: 28rpx;
     color: #979b9e;

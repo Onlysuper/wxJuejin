@@ -1,5 +1,8 @@
 /**app.wxss**/
 @import "common.wxss";
+page{
+  background: #f4f5f5;
+}
 .container {
   height: 100%;
   display: flex;

@@ -1,4 +1,7 @@
 /* pages/prodetail/index.wxss */
+.pro-detail{
+
+}
 .pro-detail .m-heander{
     display: flex;
     flex-direction: row;
