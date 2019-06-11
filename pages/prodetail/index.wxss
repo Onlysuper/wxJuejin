@@ -1,6 +1,6 @@
 /* pages/prodetail/index.wxss */
 .pro-detail{
-
+    background:#fff;
 }
 .pro-detail .m-heander{
     display: flex;
@@ -8,7 +8,7 @@
     padding: 20rpx 30rpx;
 }
 .m-heander .img-box{
-    width: 140rpx;
+    flex:0 0 140rpx;
 }
 .m-heander .img-box image{
     width: 100%;
