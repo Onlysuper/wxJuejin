@@ -1,0 +1,12 @@
+/* pages/template/m-cell/index.wxss */
+.m-cell{
+    display: flex;
+    flex-direction: row;
+}
+.m-label{
+    flex:1;
+}
+.m-right{
+    flex: 0 0 100rpx;
+    text-align: right
+}

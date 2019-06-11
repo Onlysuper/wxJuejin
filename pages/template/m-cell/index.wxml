@@ -1,0 +1,7 @@
+<!--mCell.wxml-->
+<template name="mCell">
+    <view class="m-cell">
+        <view class="m-label">{{label}}</view>
+        <view class="m-right">></view>
+    </view>
+</template>

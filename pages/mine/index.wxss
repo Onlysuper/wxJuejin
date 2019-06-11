@@ -1,0 +1,13 @@
+/* pages/mine/index.wxss */
+.m-cell{
+    display: flex;
+    flex-direction: row;
+    padding: 20rpx 30rpx;
+}
+.m-label{
+    flex:1;
+}
+.m-right{
+    flex: 0 0 100rpx;
+    text-align: right
+}

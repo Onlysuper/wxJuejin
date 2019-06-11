@@ -1,0 +1,25 @@
+<!--mine.wxml-->
+<import src ="../template/m-cell/index.wxml"/>
+<view class="mine-page">
+    <view class="m-header">
+        <view class="m-img"></view>
+        <view class="m-body"></view>
+        <view class="m-icon"></view>
+    </view>
+    <view class="m-container">
+        <view class="m-cell border-bottom-1px">
+            <view class="m-label m-title2">信息</view>
+        </view>
+        <view class="m-cell border-bottom-1px">
+            <view class="m-label m-title2">已购</view>
+        </view>
+        <view class="m-cell border-bottom-1px">
+            <view class="m-label m-title2">我</view>
+        </view>
+
+        <view class="m-cell border-bottom-1px" style="margin-top: 30rpx">
+                <view class="m-label m-title2">退出登录</view>
+            </view>
+    </view>
+</view>
+  

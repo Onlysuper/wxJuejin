@@ -30,6 +30,10 @@
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
 }
+.m-title2{
+    color:#343434;
+    font-size: 32rpx;
+}
 .m-describel{
     font-size: 28rpx;
     color: #979b9e;
@@ -46,7 +50,4 @@
     color: #b5b8ba;
     font-size: 24rpx;
 }
-.m-title2{
-    color:#343434;
-    font-size: 32rpx;
-}
+

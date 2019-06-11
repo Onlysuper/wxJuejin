@@ -2,6 +2,7 @@
   "pages": [
     "pages/index/index",
     "pages/prodetail/index",
+    "pages/mine/index",
     "pages/logs/logs"
   ],
   "tabBar": {
@@ -14,12 +15,20 @@
       "selectedIconPath":"/static/imgs/tabBar/1selected.jpeg",
       "pagePath": "pages/index/index",
       "text": "首页"
-    }, {
+    }, 
+    {
       "iconPath":"/static/imgs/tabBar/2.jpeg",
       "selectedIconPath":"/static/imgs/tabBar/2selected.jpeg",
       "pagePath": "pages/logs/logs",
-      "text": "日志"
-    }]
+      "text": "已购"
+    },
+    {
+      "iconPath":"/static/imgs/tabBar/3.jpeg",
+      "selectedIconPath":"/static/imgs/tabBar/3selected.jpeg",
+      "pagePath": "pages/mine/index",
+      "text": "我"
+    }
+  ]
   },
   "window": {
     "backgroundTextStyle": "light",
