@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/prodetail/index",
     "pages/logs/logs"
   ],
   "tabBar": {

@@ -11,5 +11,11 @@
   </scroll-view>
   <!-- 页面内容 -->
   <view class="place" style="height: 100rpx"></view>
-  <template wx:for="{{articeList}}" data="{{...item}}" is="articleList"/>
+  <!-- <navigator open-type="navigateTo"/> -->
+
+  <block  wx:for="{{articeList}}">
+    <navigator open-type="navigateTo" url="{{'/pages/prodetail/index'}}">
+     <template data="{{...item}}" is="articleList"/>
+    </navigator>
+  </block>
 </view>
