@@ -1,4 +1,5 @@
 <!--prodetail.wxml-->
+<import src ="./menus.wxml"/>
 <view class="pro-detail">
     <view class="m-heander border-bottom-1px">
         <view class="img-box">
@@ -36,7 +37,9 @@
         </view>
         <swiper current="{{currentTab}}" duration="300"  bindchange="swiperTab">
             <swiper-item>
-                <view class="tab-content">目录</view>
+                <view class="tab-content">
+                    <template is="menus"/>
+                </view>
             </swiper-item>
             <swiper-item>
                 <view class="tab-content">介绍</view>
