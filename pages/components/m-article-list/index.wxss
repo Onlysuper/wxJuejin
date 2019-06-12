@@ -1,4 +1,4 @@
-/* pages/template/m-article-list/index.wxss */
+/* pages/components/m-article-list/index.wxss */
 .article-list{
  display: flex;
  flex-direction: row;

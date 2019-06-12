@@ -1,5 +1,5 @@
 <!--index.wxml-->
-<import src ="../template/m-article-list/index.wxml"/>
+<import src ="../components/m-article-list/index.wxml"/>
 <view class="index-page">
   <!-- tab导航栏 -->
   <!-- scroll-left属性可以控制滚动条位置 -->
@@ -12,10 +12,19 @@
   <!-- 页面内容 -->
   <view class="place" style="height: 100rpx"></view>
   <!-- <navigator open-type="navigateTo"/> -->
-
+  <!-- <swiper current="{{currentTab}}" duration="300"  bindchange="swiperTab">
+    <swiper-item>
+        <view class="tab-content">1</view>
+    </swiper-item>
+    <swiper-item>
+        <view class="tab-content">2</view>
+    </swiper-item>
+  </swiper> -->
   <block  wx:for="{{articeList}}">
     <navigator open-type="navigateTo" url="{{'/pages/prodetail/index'}}">
      <template data="{{...item}}" is="articleList"/>
     </navigator>
   </block>
+
+
 </view>

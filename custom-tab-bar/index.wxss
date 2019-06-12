@@ -1,0 +1,21 @@
+.custom-tab-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background:#ffff;
+  padding:10rpx 0;
+}
+.custom-tab-bar .item{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.custom-tab-bar .item .img{
+  width:61rpx;
+  height:61rpx;
+}
+.custom-tab-bar .text{
+  font-size: 24rpx;
+  line-height: 1.5;
+}

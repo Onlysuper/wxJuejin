@@ -1,5 +1,5 @@
 <!--mine.wxml-->
-<import src ="../template/m-cell/index.wxml"/>
+<import src ="../components/m-cell/index.wxml"/>
 <view class="mine-page">
     <view class="m-header">
         <view class="m-img">

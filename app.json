@@ -6,30 +6,32 @@
     "pages/logs/logs"
   ],
   "tabBar": {
+    "custom": true,
     "color":"#656565",
     "selectedColor":"#3586f6",
     "backgroundColor":"#fff",
     "borderStyle":"white",
-    "list": [{
-      "iconPath":"/static/imgs/tabBar/1.jpeg",
-      "selectedIconPath":"/static/imgs/tabBar/1selected.jpeg",
-      "pagePath": "pages/index/index",
-      "text": "首页"
-    }, 
-    {
-      "iconPath":"/static/imgs/tabBar/2.jpeg",
-      "selectedIconPath":"/static/imgs/tabBar/2selected.jpeg",
-      "pagePath": "pages/logs/logs",
-      "text": "已购"
-    },
-    {
-      "iconPath":"/static/imgs/tabBar/3.jpeg",
-      "selectedIconPath":"/static/imgs/tabBar/3selected.jpeg",
-      "pagePath": "pages/mine/index",
-      "text": "我"
-    }
-  ]
+      "list": [{
+        "iconPath":"/static/imgs/tabBar/1.jpeg",
+        "selectedIconPath":"/static/imgs/tabBar/1selected.jpeg",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      }, 
+      {
+        "iconPath":"/static/imgs/tabBar/2.jpeg",
+        "selectedIconPath":"/static/imgs/tabBar/2selected.jpeg",
+        "pagePath": "pages/logs/logs",
+        "text": "已购"
+      },
+      {
+        "iconPath":"/static/imgs/tabBar/3.jpeg",
+        "selectedIconPath":"/static/imgs/tabBar/3selected.jpeg",
+        "pagePath": "pages/mine/index",
+        "text": "我"
+      }
+    ]
   },
+  "usingComponents": {},
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
