@@ -2,7 +2,7 @@
 //获取应用实例
 const app = getApp()
 
-Page({
+Component({
     data: {
         motto: 'Hello World',
         userInfo: {},
@@ -119,6 +119,16 @@ Page({
     //事件处理函数
     onLoad: function () {
            
+    },
+    pageLifetimes: {
+        show() {
+            if (typeof this.getTabBar === 'function' &&
+            this.getTabBar()) {
+            this.getTabBar().setData({
+                selected: 0
+            })
+            }
+        }
     },
     switchNav(event){
         var cur = event.currentTarget.dataset.current; 

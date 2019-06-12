@@ -3,7 +3,7 @@
     "pages/index/index",
     "pages/prodetail/index",
     "pages/mine/index",
-    "pages/logs/logs"
+    "pages/purchase/index"
   ],
   "tabBar": {
     "custom": true,
@@ -20,7 +20,7 @@
       {
         "iconPath":"/static/imgs/tabBar/2.jpeg",
         "selectedIconPath":"/static/imgs/tabBar/2selected.jpeg",
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/purchase/index",
         "text": "已购"
       },
       {
@@ -31,7 +31,6 @@
       }
     ]
   },
-  "usingComponents": {},
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",

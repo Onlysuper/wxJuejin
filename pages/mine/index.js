@@ -1,5 +1,5 @@
 // pages/mine/index.js
-Page({
+Component({
 
   /**
    * 页面的初始数据
@@ -7,7 +7,16 @@ Page({
   data: {
   
   },
-
+  pageLifetimes: {
+    show() {
+        if (typeof this.getTabBar === 'function' &&
+        this.getTabBar()) {
+        this.getTabBar().setData({
+            selected: 2
+        })
+        }
+    }
+  },
   /**
    * 生命周期函数--监听页面加载
    */

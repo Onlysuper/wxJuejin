@@ -1,21 +1,10 @@
-<!--logs.wxml-->
+<!--customer-bar.wxml-->
 <view>
-    <!-- <cover-view class="custom-tab-bar">
-        <block wx:for="{{list}}" wx:for-item="item" wx:key="index">
-            <navigator class="tabbar_nav" url="{{item.pagePath}}" open-type="redirect">
-              <cover-view class="item">
-                <cover-image class="img" src="{{item.selected ? item.selectedIconPath : item.iconPath}}" />
-                <cover-view   class="text">{{item.text}}</cover-view>
-              </cover-view>
-            </navigator>
-        </block>
-    </cover-view> -->
     <cover-view class="custom-tab-bar">
-      <!-- <cover-view class="tab-bar-border"></cover-view> -->
+      <cover-view class="tab-bar-border"></cover-view>
       <cover-view wx:for="{{list}}" wx:key="index" class="item" data-path="{{item.pagePath}}" data-index="{{index}}" bindtap="switchTab">
-        {{selected+'---'+index}}
-        <!-- <cover-image class="img" src="{{selected === index ? item.selectedIconPath : item.iconPath}}"></cover-image>
-        <cover-view class="text" style="color: {{selected === index ? selectedColor : color}}">{{item.text}}</cover-view> -->
+        <cover-image class="img" src="{{selected === index ? item.selectedIconPath : item.iconPath}}"></cover-image>
+        <cover-view class="text" style="color: {{selected === index ? selectedColor : color}}">{{item.text}}</cover-view>
       </cover-view>
     </cover-view>
 </view>
